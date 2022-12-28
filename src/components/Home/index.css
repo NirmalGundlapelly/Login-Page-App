@@ -1,0 +1,23 @@
+/* Write your CSS here */
+.contentContainer {
+  background-image: linear-gradient(to bottom, #2b2c49, #b5b9ff);
+  width: 450px;
+  height: 400px;
+  text-align: center;
+  padding-top: 70px;
+  border-radius: 10px;
+}
+.bgContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@media screen and (max-width: 767px) {
+  .contentContainer {
+    width: 300px;
+    height: 350px;
+  }
+}
